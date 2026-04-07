@@ -8,13 +8,13 @@ modified: '2026-03-16'
 url: https://api.customs.example.com/apis.json
 specificationVersion: '0.16'
 tags:
-  - customs
-  - trade
-  - import
-  - export
-  - tariffs
-  - compliance
-  - declarations
+  - Compliance
+  - Customs
+  - Declarations
+  - Export
+  - Import
+  - Tariffs
+  - Trade
 apis:
   - name: Customs Declaration API
     description: >-
@@ -23,10 +23,10 @@ apis:
     humanURL: https://customs.example.com/declaration-api
     baseURL: https://api.customs.example.com/v1/declarations
     tags:
-      - declarations
-      - import
-      - export
-      - submissions
+      - Declarations
+      - Export
+      - Import
+      - Submissions
     properties:
       - type: X-documentation
         url: https://docs.customs.example.com/declaration-api
@@ -47,10 +47,10 @@ apis:
     humanURL: https://customs.example.com/tariff-api
     baseURL: https://api.customs.example.com/v1/tariffs
     tags:
-      - tariffs
-      - hs-codes
-      - duties
-      - classification
+      - Classification
+      - Duties
+      - Hs-Codes
+      - Tariffs
     properties:
       - type: X-documentation
         url: https://docs.customs.example.com/tariff-api
@@ -70,10 +70,10 @@ apis:
     humanURL: https://customs.example.com/compliance-api
     baseURL: https://api.customs.example.com/v1/compliance
     tags:
-      - compliance
-      - sanctions
-      - licenses
-      - screening
+      - Compliance
+      - Licenses
+      - Sanctions
+      - Screening
     properties:
       - type: X-documentation
         url: https://docs.customs.example.com/compliance-api
@@ -93,10 +93,10 @@ apis:
     humanURL: https://customs.example.com/tracking-api
     baseURL: https://api.customs.example.com/v1/tracking
     tags:
-      - tracking
-      - status
-      - clearance
-      - shipments
+      - Clearance
+      - Shipments
+      - Status
+      - Tracking
     properties:
       - type: X-documentation
         url: https://docs.customs.example.com/tracking-api
@@ -114,9 +114,9 @@ apis:
     humanURL: https://customs.example.com/broker-api
     baseURL: https://api.customs.example.com/v1/broker
     tags:
-      - broker
-      - bulk-operations
-      - multi-client
+      - Broker
+      - Bulk-Operations
+      - Multi-Client
     properties:
       - type: X-documentation
         url: https://docs.customs.example.com/broker-api
