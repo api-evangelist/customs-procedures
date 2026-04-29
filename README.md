@@ -1,117 +1,63 @@
-# Customs Procedures API (customs-procedures)
-A collection of APIs related to customs procedures, declarations, tariffs, and international trade compliance
+# Customs Procedures (customs-procedures)
 
-**URL:** [Visit APIs.json URL](https://api.customs.example.com/apis.json)
+Customs procedures are the regulated processes governing how goods are entered into, transited through, and exported from a customs territory. Major procedures include release for free circulation, customs warehousing, inward and outward processing, temporary admission (ATA Carnet), transit (T1, TIR), and re-export. The Revised Kyoto Convention and the WCO SAFE Framework establish the international baseline; national procedures are operationalized through customs computer systems (ACE, ICS2, AES, CDS).
 
-## Tags:
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/customs-procedures/refs/heads/main/apis.yml)
 
- - customs, trade, import, export, tariffs, compliance, declarations
+## Scope
+
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** Public
+- **x-type:** topic
+
+## Tags
+
+- ATA Carnet, Bonded Warehouse, Compliance, Customs, Customs Procedures, Declarations, Drawback, Exports, Free Circulation, Imports, Inward Processing, Kyoto Convention, Outward Processing, Temporary Admission, TIR, Trade, Transit
 
 ## Timestamps
 
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Created:** 2024-01-15
+- **Modified:** 2026-04-28
 
 ## APIs
 
-### Customs Declaration API
-Submit and manage customs declarations for import and export shipments
+No standalone customs procedure APIs are catalogued here. National authorities operationalize procedures through customs computer systems and EDI standards rather than public REST APIs.
 
-**Human URL:** [https://customs.example.com/declaration-api](https://customs.example.com/declaration-api)
+## International Frameworks
 
+- [WCO Revised Kyoto Convention](https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/conventions/pf_revised_kyoto_conv.aspx)
+- [WCO SAFE Framework](https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/frameworks-of-standards/safe_package.aspx)
+- [WTO Trade Facilitation Agreement](https://www.wto.org/english/tratop_e/tradfa_e/tradfa_e.htm)
 
-#### Tags:
+## United States Procedures
 
- - declarations, import, export, submissions
+- [CBP Trade Outreach](https://www.cbp.gov/trade)
+- [CBP Informed Compliance Publications](https://www.cbp.gov/trade/rulings/informed-compliance-publications)
+- [Drawback](https://www.cbp.gov/trade/programs-administration/entry-summary/drawback)
+- [Bonded Facilities (Warehouses, FTZs)](https://www.cbp.gov/trade/programs-administration/bonded-facilities)
 
-#### Properties
+## European Union Procedures
 
-- [X-documentation](https://docs.customs.example.com/declaration-api)
-- [X-openapi](https://api.customs.example.com/declaration-api/openapi.json)
-- [X-postman-collection](https://www.postman.com/customs/declaration-api)
-- [X-pricing](https://customs.example.com/pricing/declaration-api)
+- [EU Taxation and Customs Union](https://taxation-customs.ec.europa.eu/)
+- [Union Customs Code (UCC)](https://taxation-customs.ec.europa.eu/customs-4/union-customs-code_en)
 
-### Tariff Classification API
-Look up HS codes, tariff rates, and duty calculations for imported goods
+## Transit and Temporary Admission
 
-**Human URL:** [https://customs.example.com/tariff-api](https://customs.example.com/tariff-api)
+- [ATA Carnet](https://www.atacarnet.com/)
+- [TIR Convention (UNECE)](https://unece.org/transport/border-crossing/tir)
 
+## Vocabulary
 
-#### Tags:
-
- - tariffs, hs-codes, duties, classification
-
-#### Properties
-
-- [X-documentation](https://docs.customs.example.com/tariff-api)
-- [X-openapi](https://api.customs.example.com/tariff-api/openapi.json)
-- [X-postman-collection](https://www.postman.com/customs/tariff-api)
-- [X-rate-limits](https://customs.example.com/rate-limits)
-
-### Trade Compliance API
-Verify licenses, sanctions, restricted parties, and trade compliance requirements
-
-**Human URL:** [https://customs.example.com/compliance-api](https://customs.example.com/compliance-api)
-
-
-#### Tags:
-
- - compliance, sanctions, licenses, screening
-
-#### Properties
-
-- [X-documentation](https://docs.customs.example.com/compliance-api)
-- [X-openapi](https://api.customs.example.com/compliance-api/openapi.json)
-- [X-authentication](https://docs.customs.example.com/authentication)
-- [X-status](https://status.customs.example.com)
-
-### Shipment Tracking API
-Track customs clearance status and shipment progress through customs procedures
-
-**Human URL:** [https://customs.example.com/tracking-api](https://customs.example.com/tracking-api)
-
-
-#### Tags:
-
- - tracking, status, clearance, shipments
-
-#### Properties
-
-- [X-documentation](https://docs.customs.example.com/tracking-api)
-- [X-openapi](https://api.customs.example.com/tracking-api/openapi.json)
-- [X-webhooks](https://docs.customs.example.com/webhooks)
-
-### Customs Broker Integration API
-API for customs brokers to manage multiple clients and bulk declaration submissions
-
-**Human URL:** [https://customs.example.com/broker-api](https://customs.example.com/broker-api)
-
-
-#### Tags:
-
- - broker, bulk-operations, multi-client
-
-#### Properties
-
-- [X-documentation](https://docs.customs.example.com/broker-api)
-- [X-openapi](https://api.customs.example.com/broker-api/openapi.json)
-- [X-authentication](https://docs.customs.example.com/broker-authentication)
-- [X-terms-of-service](https://customs.example.com/broker-terms)
-
-## Common Properties
-
-- [Portal](https://portal.customs.example.com)
-- [Authentication](https://docs.customs.example.com/authentication)
-- [Getting Started](https://docs.customs.example.com/getting-started)
-- [SDKs](https://customs.example.com/sdks)
-- [Status](https://status.customs.example.com)
-- [Support](https://support.customs.example.com)
-- [Terms of Service](https://customs.example.com/terms)
-- [Privacy Policy](https://customs.example.com/privacy)
-- [Change Log](https://customs.example.com/changelog)
+- **Free Circulation** — Goods released into the customs territory after duties and taxes are paid.
+- **Customs Warehousing** — Storage of non-Union/non-domestic goods under suspension of duties.
+- **Inward Processing** — Import of goods for processing/repair with relief from duties on re-export.
+- **Outward Processing** — Temporary export of goods for processing abroad and re-import with partial duty relief.
+- **Temporary Admission** — Time-limited duty-free import for specific uses (trade shows, professional equipment, etc.).
+- **Transit (T1 / TIR)** — Movement of goods under customs control between two points without entering free circulation.
+- **Drawback** — Refund of duties paid on imported goods that are subsequently exported.
 
 ## Maintainers
 
-**FN:** Customs API Team
-
-**Email:** api-team@customs.example.com
+**FN:** Kin Lane
+**Email:** kin@apievangelist.com
