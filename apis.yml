@@ -1,6 +1,6 @@
 aid: customs-procedures
 name: Customs Procedures
-x-type: topic
+kind: topic
 description: >-
   Customs procedures are the regulated processes that govern how goods
   are entered into, transited through, and exported from a customs
