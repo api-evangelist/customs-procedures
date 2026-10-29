@@ -1,4 +1,4 @@
-# Customs Procedures (customs-procedures)
+# customs-procedures
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,64 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Customs procedures are the regulated processes governing how goods are entered into, transited through, and exported from a customs territory. Major procedures include release for free circulation, customs warehousing, inward and outward processing, temporary admission (ATA Carnet), transit (T1, TIR), and re-export. The Revised Kyoto Convention and the WCO SAFE Framework establish the international baseline; national procedures are operationalized through customs computer systems (ACE, ICS2, AES, CDS).
+## customs-procedures on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/customs-procedures/refs/heads/main/apis.yml)
+Everything profiled for customs-procedures is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/customs-procedures/](https://apis.io/providers/customs-procedures/)** — or go straight to one of the APIs or properties below.
 
-## Scope
+## API Evangelist rating
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** Public
-- **x-type:** topic
+Not yet rated. See [apis.io/providers/customs-procedures/](https://apis.io/providers/customs-procedures/).
 
-## Tags
+## How this profile is made
 
-- ATA Carnet, Bonded Warehouse, Compliance, Customs, Customs Procedures, Declarations, Drawback, Exports, Free Circulation, Imports, Inward Processing, Kyoto Convention, Outward Processing, Temporary Admission, TIR, Trade, Transit
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Timestamps
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for customs-procedures: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-28
+## Open an issue
 
-## APIs
-
-No standalone customs procedure APIs are catalogued here. National authorities operationalize procedures through customs computer systems and EDI standards rather than public REST APIs.
-
-## International Frameworks
-
-- [WCO Revised Kyoto Convention](https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/conventions/pf_revised_kyoto_conv.aspx)
-- [WCO SAFE Framework](https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/frameworks-of-standards/safe_package.aspx)
-- [WTO Trade Facilitation Agreement](https://www.wto.org/english/tratop_e/tradfa_e/tradfa_e.htm)
-
-## United States Procedures
-
-- [CBP Trade Outreach](https://www.cbp.gov/trade)
-- [CBP Informed Compliance Publications](https://www.cbp.gov/trade/rulings/informed-compliance-publications)
-- [Drawback](https://www.cbp.gov/trade/programs-administration/entry-summary/drawback)
-- [Bonded Facilities (Warehouses, FTZs)](https://www.cbp.gov/trade/programs-administration/bonded-facilities)
-
-## European Union Procedures
-
-- [EU Taxation and Customs Union](https://taxation-customs.ec.europa.eu/)
-- [Union Customs Code (UCC)](https://taxation-customs.ec.europa.eu/customs-4/union-customs-code_en)
-
-## Transit and Temporary Admission
-
-- [ATA Carnet](https://www.atacarnet.com/)
-- [TIR Convention (UNECE)](https://unece.org/transport/border-crossing/tir)
-
-## Vocabulary
-
-- **Free Circulation** — Goods released into the customs territory after duties and taxes are paid.
-- **Customs Warehousing** — Storage of non-Union/non-domestic goods under suspension of duties.
-- **Inward Processing** — Import of goods for processing/repair with relief from duties on re-export.
-- **Outward Processing** — Temporary export of goods for processing abroad and re-import with partial duty relief.
-- **Temporary Admission** — Time-limited duty-free import for specific uses (trade shows, professional equipment, etc.).
-- **Transit (T1 / TIR)** — Movement of goods under customs control between two points without entering free circulation.
-- **Drawback** — Refund of duties paid on imported goods that are subsequently exported.
-
-## Maintainers
-
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/customs-procedures/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
